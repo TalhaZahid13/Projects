@@ -1,0 +1,13 @@
+language,code,efficiency_score
+JavaScript,for(let i = 0; i < 10; i++) { console.log(i); },69
+JavaScript,"const sum = arr => arr.reduce((a, b) => a + b, 0);",94
+JavaScript,function factorial(n) { return n <= 1 ? 1 : n * factorial(n - 1); },82
+C++,for(int i = 0; i < 10; i++) { std::cout << i << std::endl; },87
+C++,"int sum = accumulate(arr.begin(), arr.end(), 0);",36
+C++,int factorial(int n) { return n <= 1 ? 1 : n * factorial(n - 1); },68
+C#,for(int i = 0; i < 10; i++) { Console.WriteLine(i); },97
+C#,int sum = arr.Sum();,97
+C#,int Factorial(int n) { return n <= 1 ? 1 : n * Factorial(n - 1); },78
+Python,for i in range(10): print(i),79
+Python,sum = lambda arr: sum(arr),88
+Python,def factorial(n): return 1 if n <= 1 else n * factorial(n - 1),45
