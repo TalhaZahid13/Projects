@@ -1,0 +1,42 @@
+
+
+Game 1
+	Thu Sep 12 23:28:54 2024
+
+player 1 Name: talha
+player 2 Name: zahid
+Single Match 
+
+				Tic Tac Toe Game
+				     START
+				   Player 1[X]
+				   Player 2[O]
+	Thu Sep 12 23:29:10 2024
+
+
+				|		|
+				|		|
+			X	|	O	|	3	
+				|		|
+		----------------|---------------|------------
+				|		|
+				|		|
+			4	|	X	|	O	
+				|		|
+				|		|
+		----------------|---------------|-------------
+				|		|
+				|		|
+			7	|	8	|	X	
+				|		|
+				|		|
+
+talha Wins 
+Player 1 talha Wins = 1
+
+
+Player 2 zahid Wins  = 0
+
+
+Draws = 0
+
