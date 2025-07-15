@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar Solutions Catalog</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f4f4f4;
+        color: #333;
+    }
+
+    header {
+        background: #007bff;
+        padding: 20px 0;
+        color: #fff;
+    }
+
+    .header-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-container h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    nav ul li {
+        margin-left: 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 50px auto;
+        padding: 20px;
+        background: #ffffff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #007bff;
+    }
+
+    .catalog-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .catalog-item {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .catalog-item img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+    }
+
+    .catalog-item h3 {
+        margin: 15px 0 10px;
+        color: #333;
+    }
+
+    .catalog-item p {
+        line-height: 1.6;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #777;
+    }
+
+    .back-button {
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 20px;
+        background: #007bff;
+        color: #fff;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+    }
+
+    .back-button:hover {
+        background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="header-container">
+    <h1>Solar Solutions</h1>
+    <nav>
+      <ul>
+        <li><a href="/ContactUs.html">Contact Us</a></li>
+        <li><a href="/AboutUs.html">About Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="container">
+  <h1>Our Solar Products Catalog</h1>
+  <div class="catalog-grid">
+    <div class="catalog-item">
+      <img src="/Solar-Panenl.jpg" alt="Solar Panel">
+      <h3>Solar Panel</h3>
+      <p>High-efficiency solar panels for residential and commercial use.</p>
+    </div>
+    <div class="catalog-item">
+      <img src="/inverter.jpg" alt="Solar Inverter">
+      <h3>Solar Inverter</h3>
+      <p>Reliable inverters to convert solar energy into usable power.</p>
+    </div>
+    <div class="catalog-item">
+      <img src="/Solar Battery.jpg" alt="Solar Battery">
+      <h3>Solar Battery</h3>
+      <p>Store excess energy for use during non-sunny hours.</p>
+    </div>
+    <div class="catalog-item">
+      <img src="/solar.jpg" alt="Mounting System">
+      <h3>Mounting System</h3>
+      <p>Durable mounting systems for easy installation of solar panels.</p>
+    </div>
+  </div>
+  <a href="index.html" class="back-button">Back to Home</a>
+  <div class="footer">
+    &copy; 2025 Prestige Solar Energy. All rights reserved.
+  </div>
+</div>
+</body>
+</html>
