@@ -1,0 +1,2 @@
+D:/University/6th Semester/Mobile Application Development/Project/Final-Project-Twitter-Clone/android/app/.cxx/RelWithDebInfo/5nd39384/x86_64/CMakeFiles/edit_cache.dir
+D:/University/6th Semester/Mobile Application Development/Project/Final-Project-Twitter-Clone/android/app/.cxx/RelWithDebInfo/5nd39384/x86_64/CMakeFiles/rebuild_cache.dir
